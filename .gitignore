@@ -1,0 +1,67 @@
+# ============================
+# AI Store Counter Documentation Repo
+# ============================
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node or Python virtual envs (just in case)
+node_modules/
+venv/
+.env
+__pycache__/
+
+# Build / generated output
+dist/
+build/
+out/
+*.zip
+*.tar.gz
+
+# Docs build outputs
+site/
+docs/_build/
+docs/.cache/
+docs/build/
+
+# Diagrams / rendered images
+docs/diagrams/*.svg.tmp
+docs/diagrams/*.png.tmp
+
+# OS metadata
+ehthumbs.db
+Thumbs.db
+
+# macOS files
+.AppleDouble
+.LSOverride
+.Trashes
+._*
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# ============================
+# Allowlist: keep all markdown, text, and docs
+# ============================
+!*.md
+!docs/
